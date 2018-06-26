@@ -40,6 +40,9 @@ public class StudentController {
 	@RequestMapping(value="/findAll", method=RequestMethod.GET)
 	public Object findByAll() {
 		// TODO Auto-generated method stub
+		
+		
+		
 		return studentService.findByAll();
 	}
 }
